@@ -12,11 +12,12 @@ PS: mipsel机型的固件下载地址: http://koolshare.cn/forum-96-1.html
 
 进入路由ssh以后的修改命令如下：
 
-  wget --no-check-certificate https://raw.githubusercontent.com/elmagnificogi
-/merlin-koolshare-ss-for-mipsel/master/shadowsocks.tar.gz
-  tar -zxvf /tmp/shadowsocks.tar.gz
-  chmod +x /tmp/shadowsocks/install.sh
-  sh /tmp/shadowsocks/install.sh
+```
+wget --no-check-certificate https://raw.githubusercontent.com/elmagnificogi/merlin-koolshare-ss-for-mipsel/master/shadowsocks.tar.gz
+tar -zxvf /tmp/shadowsocks.tar.gz
+chmod +x /tmp/shadowsocks/install.sh
+sh /tmp/shadowsocks/install.sh
+```
 
 等待安装结束以后，刷新网页，填上ss，试一下更新gwflist，会发现正常更新了。
 
