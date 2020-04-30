@@ -15,9 +15,9 @@ PS: mipsel机型的固件下载地址: http://koolshare.cn/forum-96-1.html
 
 #### 下载这个ss压缩包
 
-先去release页面下载shadowsocks.tar.gz 
+先去release页面下载merlin-koolshare-ss-for-mipsel-0.11.tar.gz
 
-> https://github.com/elmagnificogi/merlin-koolshare-ss-for-mipsel/archive/v0.1.tar.gz
+> https://github.com/elmagnificogi/merlin-koolshare-ss-for-mipsel/archive/v0.11.tar.gz
 
 #### 匿名上传
 
@@ -41,7 +41,8 @@ PS: mipsel机型的固件下载地址: http://koolshare.cn/forum-96-1.html
 wget --no-check-certificate  -O ./merlin-koolshare-ss-for-mipsel-0.11.tar.gz 刚才牛奶快传的链接
 tar -zxvf ./merlin-koolshare-ss-for-mipsel-0.11.tar.gz
 chmod +x ./merlin-koolshare-ss-for-mipsel-0.11/install.sh
-sh ./merlin-koolshare-ss-for-mipsel-0.11/install.sh
+mv ./merlin-koolshare-ss-for-mipsel-0.11 /tmp/shadowsocks
+sh /tmp/shadowsocks/install.sh
 ```
 
 等待安装结束以后，刷新网页，填上ss，试一下更新gwflist，会发现正常更新了。
